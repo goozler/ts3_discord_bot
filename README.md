@@ -10,6 +10,7 @@ You need to provide these are variables to configure the script
 - ```TS3_DISCORD_BOT_PORT``` - port of the TS3 server for ServerQueries (10011)
 - ```TS3_DISCORD_BOT_LOGIN``` - login for ServerQueries (see below how to get it)
 - ```TS3_DISCORD_BOT_PASSWORD``` - password for ServerQueries (see below how to get it)
+- ```TS3_DISCORD_BOT_WEBHOOK_URL``` - URL for a Discord webhook with `https://` prefix
 - ```TS3_DISCORD_BOT_TIMEZONE``` - timezone for the imestamp (Europe/Samara)
 
 ServerQuery credentials
