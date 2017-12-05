@@ -1,6 +1,7 @@
 # TeamSpeak3 Discord Bot
+[![GitHub release](https://img.shields.io/github/release/goozler/ts3_discord_bot.svg?style=flat-square)](https://github.com/goozler/ts3_discord_bot/releases) [![Docker Build Status](https://img.shields.io/docker/build/goozler/ts3_discord_bot.svg?style=flat-square)](https://hub.docker.com/r/goozler/ts3_discord_bot/) [![Travis branch](https://img.shields.io/travis/goozler/ts3_discord_bot/master.svg?style=flat-square)](https://travis-ci.org/goozler/ts3_discord_bot)
 
-![](https://github.com/goozler/ts3_discord_bot/blob/master/screenshots/discord.jpg)
+![](https://github.com/goozler/ts3_discord_bot/blob/master/screenshots/discord.jpg?raw=1)
 
 Config Variables
 ------
@@ -15,7 +16,7 @@ ServerQuery credentials
 ------
 You can retrieve them via the TS3 Client and a user with admin privileges
 
-![](https://github.com/goozler/ts3_discord_bot/blob/master/screenshots/teamspeak_settings.jpg)
+![](https://github.com/goozler/ts3_discord_bot/blob/master/screenshots/teamspeak_settings.jpg?raw=1)
 
 Wait when the TS3 server is ready
 ------
