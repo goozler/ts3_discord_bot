@@ -1,5 +1,5 @@
 # TeamSpeak3 Discord Bot
-[![GitHub release](https://img.shields.io/github/release/goozler/ts3_discord_bot.svg?style=flat-square)](https://github.com/goozler/ts3_discord_bot/releases) [![Docker Build Status](https://img.shields.io/docker/build/goozler/ts3_discord_bot.svg?style=flat-square)](https://hub.docker.com/r/goozler/ts3_discord_bot/) [![Travis branch](https://img.shields.io/travis/goozler/ts3_discord_bot/master.svg?style=flat-square)](https://travis-ci.org/goozler/ts3_discord_bot)
+[![GitHub release](https://img.shields.io/github/release/goozler/ts3_discord_bot.svg?style=flat-square)](https://github.com/goozler/ts3_discord_bot/releases) [![Docker Build Status](https://img.shields.io/docker/build/goozler/ts3_discord_bot.svg?style=flat-square)](https://hub.docker.com/r/goozler/ts3_discord_bot/builds) [![Travis branch](https://img.shields.io/travis/goozler/ts3_discord_bot/master.svg?style=flat-square)](https://travis-ci.org/goozler/ts3_discord_bot)
 
 ![](https://github.com/goozler/ts3_discord_bot/blob/master/screenshots/discord.jpg?raw=1)
 

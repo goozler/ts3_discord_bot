@@ -1,10 +1,18 @@
 FROM golang:1.9.2-alpine3.6 AS builder
-RUN apk add --no-cache -q gcc musl-dev
+RUN apk add --no-cache build-base && \
+ echo "http://dl-cdn.alpinelinux.org/alpine/edge/main" >> /etc/apk/repositories && \
+ echo "http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories && \
+ echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories && \
+ apk add --no-cache upx
 WORKDIR /build
 COPY ts3_discord_bot.go .
-RUN CC=$(which musl-gcc) CGO_ENABLED=0 GOOS=linux go build -a\
- -ldflags '-w -linkmode external -extldflags "-static"'\
- -o ts3_discord_bot
+RUN CGO_ENABLED=0 GOOS=linux go build\
+ -a\
+ -ldflags '-s -w'\
+ -installsuffix cgo\
+ -o ts3_discord_bot && \
+ upx --ultra-brute -qq ts3_discord_bot && \
+ upx -t ts3_discord_bot
 
 FROM alpine:3.7
 ARG BUILD_DATE
