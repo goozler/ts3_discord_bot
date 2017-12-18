@@ -1,5 +1,5 @@
 # TeamSpeak3 Discord Bot
-[![GitHub release](http://goozler.ru/github/release/goozler/ts3_discord_bot.svg?style=flat-square)](https://github.com/goozler/ts3_discord_bot/releases) ![MicroBadger Size](http://goozler.ru/microbadger/image-size/goozler/ts3_discord_bot.svg?style=flat-square) [![Docker Build Status](http://goozler.ru/docker/build/goozler/ts3_discord_bot.svg?style=flat-square)](https://hub.docker.com/r/goozler/ts3_discord_bot/builds) [![Travis branch](http://goozler.ru/travis/goozler/ts3_discord_bot/master.svg?style=flat-square)](https://travis-ci.org/goozler/ts3_discord_bot)
+[![GitHub release](http://goozler.ru/github/release/goozler/ts3_discord_bot.svg?style=flat-square)](https://github.com/goozler/ts3_discord_bot/releases) [![MicroBadger Size](http://goozler.ru/microbadger/image-size/goozler/ts3_discord_bot.svg?style=flat-square)](https://hub.docker.com/r/goozler/ts3_discord_bot/) [![Docker Build Status](http://goozler.ru/docker/build/goozler/ts3_discord_bot.svg?style=flat-square)](https://hub.docker.com/r/goozler/ts3_discord_bot/builds) [![Travis branch](http://goozler.ru/travis/goozler/ts3_discord_bot/master.svg?style=flat-square)](https://travis-ci.org/goozler/ts3_discord_bot)
 
 ![](https://github.com/goozler/ts3_discord_bot/blob/master/screenshots/discord.jpg?raw=1)
 
