@@ -87,10 +87,6 @@ func connect(clients *map[string]Client, connectionsChannel chan *TS3Client) *TS
 		log.Fatalf("Can't connect to the TS3 server: %v", err)
 	}
 
-	if err = client.connection.SetKeepAlive(true); err != nil {
-		log.Fatalf("Can't set keep alive connection: %v", err)
-	}
-
 	scanner := bufio.NewScanner(client.connection)
 	scanner.Split(scanTS3Lines)
 
@@ -128,6 +124,15 @@ func connect(clients *map[string]Client, connectionsChannel chan *TS3Client) *TS
 	log.Println("Register a notifier")
 	command = "servernotifyregister event=server"
 	client.Exec(command)
+
+	ticker := time.NewTicker(4 * time.Minute)
+
+	go func() {
+		for range ticker.C {
+			// Anti-Idle string
+			client.Exec("version")
+		}
+	}()
 
 	return client
 }
